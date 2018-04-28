@@ -5,3 +5,29 @@ body {
 	background-color: #000;
 }
 
+.bottom_menu {
+	display: block;
+	color: #00a500;
+	font-family: "Consolas";
+	font-size: 1.3em;
+}
+
+.bottom_menu .menu_item {
+	margin-right: 1%;
+	padding: 10px 0;
+	width: 18.8%;
+	display: inline-block;
+	border: 1px solid #00a500;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-align: center;
+}
+
+.bottom_menu .menu_item:first-child {
+	margin-left: 1%;
+}
+
+.bottom_menu .menu_item:hover {
+	background-color: #00a500;
+	color: #000;
+}
